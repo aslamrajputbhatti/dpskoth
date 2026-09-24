@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Public School Koth Kalan, Hisar | Official Website</title>
+    <meta name="description" content="Diamond Public School, Koth Kalan, Hisar, Haryana. Explore academics, admissions, school information, notices, gallery and contact details.">
+
+    <!-- SEO & Social Metadata -->
+    <meta property="og:title" content="Diamond Public School Koth Kalan, Hisar | Official Website">
+    <meta property="og:description" content="Empowering students in Koth Kalan, Hisar. Explore our academic excellence and holistic development.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 glass-header">
+        <nav class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <!-- Logo Area -->
+            <a href="#" class="flex items-center space-x-3 group" aria-label="Diamond Public School home">
+                <div class="diamond-logo group-hover:scale-105 transition-transform duration-300">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M12 2L18.5 7.5L12 22L5.5 7.5L12 2Z" stroke="#D4AF37" stroke-width="1.7" stroke-linejoin="round"/>
+                        <path d="M12 2V22" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M5.5 7.5H18.5" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="flex flex-col leading-tight">
+                    <span class="text-gold font-serif font-bold text-xl tracking-tight uppercase">Diamond Public School</span>
+                    <span class="text-gray-500 text-[10px] font-bold uppercase tracking-[0.22em]">Koth Kalan, Hisar</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <div class="hidden lg:flex items-center space-x-8 font-medium text-sm text-navy/80">
+                <a href="#home" class="nav-link hover:text-navy">Home</a>
+                <a href="#about" class="nav-link hover:text-navy">About</a>
+                <a href="#academics" class="nav-link hover:text-navy">Academics</a>
+                <a href="#facilities" class="nav-link hover:text-navy">Facilities</a>
+                <a href="#admissions" class="nav-link hover:text-navy">Admissions</a>
+                <a href="#gallery" class="nav-link hover:text-navy">Gallery</a>
+                <a href="#news" class="nav-link hover:text-navy">News</a>
+                <a href="#contact" class="nav-link hover:text-navy">Contact</a>
+                <a href="#admissions" class="bg-navy text-white px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-blue-900 transition-all shadow-md hover:shadow-lg active:scale-95">Admission Enquiry</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="lg:hidden flex items-center space-x-4">
+                <a href="tel:9034622797" class="bg-navy text-white p-2 rounded-full">
+                    <i data-lucide="phone" class="w-5 h-5"></i>
+                </a>
+                <button id="menu-btn" class="text-navy p-2">
+                    <i data-lucide="menu" class="w-7 h-7"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Side Menu -->
+    <div id="mobile-menu" class="fixed inset-0 z-[60] bg-navy/95 backdrop-blur-lg translate-x-full transition-transform duration-300 ease-in-out lg:hidden">
+        <div class="flex flex-col h-full p-6">
+            <div class="flex justify-between items-center mb-12">
+                <div class="flex items-center space-x-3">
+                    <i data-lucide="diamond" class="text-gold w-8 h-8"></i>
+                    <span class="text-white font-serif text-xl font-bold uppercase">Diamond Public School</span>
+                </div>
+                <button id="close-menu" class="text-white">
+                    <i data-lucide="x" class="w-8 h-8"></i>
+                </button>
+            </div>
+            <div class="flex flex-col space-y-6 text-white text-lg font-medium">
+                <a href="#home" class="mobile-nav-link flex items-center space-x-4 py-3 border-b border-white/10"><i data-lucide="home" class="w-5 h-5 text-gold"></i><span>Home</span></a>
+                <a href="#about" class="mobile-nav-link flex items-center space-x-4 py-3 border-b border-white/10"><i data-lucide="info" class="w-5 h-5 text-gold"></i><span>About</span></a>
+                <a href="#academics" class="mobile-nav-link flex items-center space-x-4 py-3 border-b border-white/10"><i data-lucide="book-open" class="w-5 h-5 text-gold"></i><span>Academics</span></a>
+                <a href="#facilities" class="mobile-nav-link flex items-center space-x-4 py-3 border-b border-white/10"><i data-lucide="building" class="w-5 h-5 text-gold"></i><span>Facilities</span></a>
+                <a href="#admissions" class="mobile-nav-link flex items-center space-x-4 py-3 border-b border-white/10"><i data-lucide="user-plus" class="w-5 h-5 text-gold"></i><span>Admissions</span></a>
+                <a href="#gallery" class="mobile-nav-link flex items-center space-x-4 py-3 border-b border-white/10"><i data-lucide="image" class="w-5 h-5 text-gold"></i><span>Gallery</span></a>
+                <a href="#news" class="mobile-nav-link flex items-center space-x-4 py-3 border-b border-white/10"><i data-lucide="megaphone" class="w-5 h-5 text-gold"></i><span>News & Notices</span></a>
+                <a href="#contact" class="mobile-nav-link flex items-center space-x-4 py-3 border-b border-white/10"><i data-lucide="mail" class="w-5 h-5 text-gold"></i><span>Contact</span></a>
+            </div>
+            <div class="mt-auto pt-6">
+                <a href="#admissions" class="block w-full bg-gold text-navy text-center py-4 rounded-xl font-bold uppercase tracking-wide shadow-xl">Admission Enquiry</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="images/10.jpg" alt="Diamond Public School campus" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-[#081a38]/95 via-[#081a38]/85 to-[#081a38]/70"></div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10 text-white">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center space-x-2 bg-gold/20 backdrop-blur-md border border-gold/30 text-gold px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6 animate-bounce">
+                    <i data-lucide="graduation-cap" class="w-3 h-3"></i>
+                    <span>Welcome to Excellence</span>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-serif font-extrabold leading-tight mb-4">
+                    <span class="text-gold">Diamond Public School</span><br>
+                    <span class="text-white">Koth Kalan, Hisar</span>
+                </h1>
+                <p class="text-xl md:text-2xl font-light text-gray-200 mb-10 max-w-xl">
+                    "Knowledge. Character. Leadership."
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#admissions" class="bg-gold text-navy px-8 py-4 rounded-full font-bold uppercase tracking-wider hover:bg-yellow-500 transition-all shadow-xl hover:scale-105 active:scale-95">Admission Enquiry</a>
+                    <a href="#about" class="bg-white/10 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full font-bold uppercase tracking-wider hover:bg-white/20 transition-all shadow-xl">Explore Our School</a>
+                    <a href="#contact" class="bg-white text-navy px-8 py-4 rounded-full font-bold uppercase tracking-wider hover:bg-gray-100 transition-all shadow-xl">Contact School</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute bottom-12 right-4 md:right-12 z-20 animate-fade-in-up">
+            <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-3xl text-white shadow-2xl max-w-xs">
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-gold p-2 rounded-lg text-navy"><i data-lucide="map-pin" class="w-4 h-4"></i></div>
+                        <span class="text-sm font-medium">Koth Kalan, Hisar</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-gold p-2 rounded-lg text-navy"><i data-lucide="users" class="w-4 h-4"></i></div>
+                        <span class="text-sm font-medium">Co-Educational School</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-gold p-2 rounded-lg text-navy"><i data-lucide="book" class="w-4 h-4"></i></div>
+                        <span class="text-sm font-medium">Nursery to X* <span class="text-[10px] opacity-50">(Unverified)</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info Bar -->
+    <section class="relative z-30 -mt-16 mb-20 px-4">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="reveal bg-white p-8 rounded-3xl shadow-xl border-b-4 border-gold hover:-translate-y-2 transition-transform duration-300 group">
+                <div class="text-gold mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="award" class="w-8 h-8"></i>
+                </div>
+                <h3 class="text-navy font-serif text-xl font-bold mb-3">Since 2012</h3>
+                <p class="text-gray-500 text-sm leading-relaxed">Dedicated to fostering a strong intellectual foundation and a passion for lifelong learning.</p>
+            </div>
+            <div class="reveal bg-white p-8 rounded-3xl shadow-xl border-b-4 border-gold hover:-translate-y-2 transition-transform duration-300 group" style="transition-delay: 100ms;">
+                <div class="text-gold mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="heart" class="w-8 h-8"></i>
+                </div>
+                <h3 class="text-navy font-serif text-xl font-bold mb-3">Holistic Development</h3>
+                <p class="text-gray-500 text-sm leading-relaxed">Encouraging students to grow not just academically, but emotionally and socially.</p>
+            </div>
+            <div class="reveal bg-white p-8 rounded-3xl shadow-xl border-b-4 border-gold hover:-translate-y-2 transition-transform duration-300 group" style="transition-delay: 200ms;">
+                <div class="text-gold mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="shield-check" class="w-8 h-8"></i>
+                </div>
+                <h3 class="text-navy font-serif text-xl font-bold mb-3">Safe & Supportive</h3>
+                <p class="text-gray-500 text-sm leading-relaxed">Providing a secure, warm environment where every child feels valued and safe.</p>
+            </div>
+            <div class="reveal bg-white p-8 rounded-3xl shadow-xl border-b-4 border-gold hover:-translate-y-2 transition-transform duration-300 group" style="transition-delay: 300ms;">
+                <div class="text-gold mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <i data-lucide="user-check" class="w-8 h-8"></i>
+                </div>
+                <h3 class="text-navy font-serif text-xl font-bold mb-3">Student-Centered</h3>
+                <p class="text-gray-500 text-sm leading-relaxed">Tailoring our approach to meet the individual needs and potentials of every student.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 diamond-pattern">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="relative reveal">
+                    <div class="absolute -top-6 -left-6 w-32 h-32 bg-gold/20 rounded-full blur-3xl"></div>
+                    <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
+                        <img src="images/3.jpg" alt="Diamond Public School building" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute -bottom-10 -right-10 bg-white p-6 rounded-2xl shadow-xl z-20 hidden md:block">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-navy p-3 rounded-full text-gold"><i data-lucide="award" class="w-6 h-6"></i></div>
+                            <div>
+                                <p class="text-navy font-bold text-lg">Trusted Education</p>
+                                <p class="text-gray-500 text-xs">Serving the Koth Kalan Community</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <h2 class="text-navy font-serif text-4xl md:text-5xl font-bold mb-6 leading-tight">About Diamond Public School</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                        Diamond Public School Koth Kalan, Hisar is a well-known general education school serving families in the Koth Kalan area of Haryana. It combines academic discipline with a caring environment that helps students grow in confidence, values, and learning.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-6 mb-10">
+                        <div class="p-4 rounded-xl bg-soft-gold border-l-4 border-gold">
+                            <h4 class="text-navy font-bold mb-2 flex items-center"><i data-lucide="history" class="w-4 h-4 mr-2 text-gold"></i> Our Legacy</h4>
+                            <p class="text-gray-500 text-sm leading-relaxed">Built on the belief that quality education should nurture both academic excellence and strong character in every child.</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-soft-gold border-l-4 border-gold">
+                            <h4 class="text-navy font-bold mb-2 flex items-center"><i data-lucide="eye" class="w-4 h-4 mr-2 text-gold"></i> Our Vision</h4>
+                            <p class="text-gray-500 text-sm leading-relaxed">To create a vibrant learning environment where students grow into confident, responsible, and capable citizens.</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-soft-gold border-l-4 border-gold">
+                            <h4 class="text-navy font-bold mb-2 flex items-center"><i data-lucide="target" class="w-4 h-4 mr-2 text-gold"></i> Our Mission</h4>
+                            <p class="text-gray-500 text-sm leading-relaxed">To provide meaningful education through dedicated mentoring, disciplined learning, and holistic development.</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-soft-gold border-l-4 border-gold">
+                            <h4 class="text-navy font-bold mb-2 flex items-center"><i data-lucide="heart" class="w-4 h-4 mr-2 text-gold"></i> Our Values</h4>
+                            <p class="text-gray-500 text-sm leading-relaxed">Respect, integrity, discipline, curiosity, and empathy guide every interaction within the school community.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Principal's Message -->
+    <section class="py-20 bg-light-blue overflow-hidden relative">
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-navy/5 -skew-x-12 translate-x-20"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="bg-white rounded-[3rem] shadow-2xl overflow-hidden flex flex-col md:flex-row">
+                <div class="md:w-1/3 bg-navy relative">
+                    <img src="images/2.jpg" alt="Students taking part in a school programme" class="w-full h-full object-cover opacity-90">
+                    <div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-navy to-transparent">
+                        <p class="text-white font-serif text-xl font-bold">Principal</p>
+                        <p class="text-gold text-sm italic">Diamond Public School</p>
+                    </div>
+                </div>
+                <div class="md:w-2/3 p-8 md:p-16">
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="h-1 w-12 bg-gold"></div>
+                        <h2 class="text-navy font-serif text-3xl font-bold uppercase tracking-tight">Message from the Principal</h2>
+                    </div>
+                    <div class="text-gray-600 text-lg leading-relaxed italic relative">
+                        <i data-lucide="quote" class="absolute -top-6 -left-6 w-12 h-12 text-gold/20"></i>
+                        <p class="mb-6">"Dear Parents and Students,"</p>
+                        <p class="mb-6">At Diamond Public School, we believe that education is not only about academic achievement but also about building values, confidence, and character. We aim to create a safe, inspiring, and disciplined environment where every learner is encouraged to explore, excel, and grow with purpose.</p>
+                        <p class="font-bold text-navy not-italic">— Principal, Diamond Public School</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision, Mission, Values -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-navy font-serif text-4xl font-bold mb-4">Our Foundation</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">These principles guide every action and decision we take at Diamond Public School.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="reveal bg-white p-10 rounded-3xl shadow-lg border-t-8 border-navy text-center group hover:shadow-2xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-navy/10 rounded-2xl flex items-center justify-center text-navy mb-6 mx-auto group-hover:bg-navy group-hover:text-white transition-colors duration-300">
+                        <i data-lucide="eye" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-2xl font-bold mb-4">VISION</h3>
+                    <p class="text-gray-600 leading-relaxed italic">"To create a nurturing learning environment where students develop knowledge, confidence, and character while embracing a lifelong love for learning."</p>
+                </div>
+                <div class="reveal bg-white p-10 rounded-3xl shadow-lg border-t-8 border-gold text-center group hover:shadow-2xl transition-all duration-300" style="transition-delay: 100ms;">
+                    <div class="w-16 h-16 bg-gold/10 rounded-2xl flex items-center justify-center text-gold mb-6 mx-auto group-hover:bg-gold group-hover:text-white transition-colors duration-300">
+                        <i data-lucide="target" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-2xl font-bold mb-4">MISSION</h3>
+                    <p class="text-gray-600 leading-relaxed italic">"To support academic excellence, creativity, discipline, and holistic growth through meaningful education and guided mentorship."</p>
+                </div>
+                <div class="reveal bg-white p-10 rounded-3xl shadow-lg border-t-8 border-navy text-center group hover:shadow-2xl transition-all duration-300" style="transition-delay: 200ms;">
+                    <div class="w-16 h-16 bg-navy/10 rounded-2xl flex items-center justify-center text-navy mb-6 mx-auto group-hover:bg-navy group-hover:text-white transition-colors duration-300">
+                        <i data-lucide="shield-check" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-2xl font-bold mb-4">VALUES</h3>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="px-3 py-1 bg-soft-gold text-navy text-xs font-bold rounded-full">Respect</span>
+                        <span class="px-3 py-1 bg-soft-gold text-navy text-xs font-bold rounded-full">Integrity</span>
+                        <span class="px-3 py-1 bg-soft-gold text-navy text-xs font-bold rounded-full">Discipline</span>
+                        <span class="px-3 py-1 bg-soft-gold text-navy text-xs font-bold rounded-full">Curiosity</span>
+                        <span class="px-3 py-1 bg-soft-gold text-navy text-xs font-bold rounded-full">Responsibility</span>
+                        <span class="px-3 py-1 bg-soft-gold text-navy text-xs font-bold rounded-full">Compassion</span>
+                    </div>
+                    <span class="block mt-6 text-[10px] text-gray-400 uppercase tracking-widest">Core Values</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="py-20 bg-light-blue">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-navy font-serif text-4xl font-bold mb-4">A Complete School Journey</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">Our curriculum is designed to spark curiosity and ensure a comprehensive academic journey.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all group" style="transition-delay: 0ms;">
+                    <div class="w-14 h-14 bg-gold/20 text-gold rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-12 transition-transform">
+                        <i data-lucide="baby" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Early Years</h3>
+                    <p class="text-gray-500 text-sm mb-6">Nursery / LKG / UKG</p>
+                    <p class="text-gray-400 text-xs italic mb-6">[Editable: Add description of early childhood education approach]</p>
+                    <a href="#" class="text-navy font-bold text-xs uppercase tracking-widest flex items-center hover:text-gold transition-colors">Learn More <i data-lucide="arrow-right" class="w-3 h-3 ml-2"></i></a>
+                </div>
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all group" style="transition-delay: 100ms;">
+                    <div class="w-14 h-14 bg-gold/20 text-gold rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-12 transition-transform">
+                        <i data-lucide="book-open" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Primary</h3>
+                    <p class="text-gray-500 text-sm mb-6">Classes I – V</p>
+                    <p class="text-gray-400 text-xs italic mb-6">[Editable: Add description of primary school curriculum]</p>
+                    <a href="#" class="text-navy font-bold text-xs uppercase tracking-widest flex items-center hover:text-gold transition-colors">Learn More <i data-lucide="arrow-right" class="w-3 h-3 ml-2"></i></a>
+                </div>
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all group" style="transition-delay: 200ms;">
+                    <div class="w-14 h-14 bg-gold/20 text-gold rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-12 transition-transform">
+                        <i data-lucide="library" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Middle School</h3>
+                    <p class="text-gray-500 text-sm mb-6">Classes VI – VIII</p>
+                    <p class="text-gray-400 text-xs italic mb-6">[Editable: Add description of middle school transition]</p>
+                    <a href="#" class="text-navy font-bold text-xs uppercase tracking-widest flex items-center hover:text-gold transition-colors">Learn More <i data-lucide="arrow-right" class="w-3 h-3 ml-2"></i></a>
+                </div>
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all group" style="transition-delay: 300ms;">
+                    <div class="w-14 h-14 bg-gold/20 text-gold rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-12 transition-transform">
+                        <i data-lucide="graduation-cap" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Secondary</h3>
+                    <p class="text-gray-500 text-sm mb-6">Classes IX – X</p>
+                    <p class="text-gray-400 text-xs italic mb-6">[Editable: Add description of secondary education focus]</p>
+                    <a href="#" class="text-navy font-bold text-xs uppercase tracking-widest flex items-center hover:text-gold transition-colors">Learn More <i data-lucide="arrow-right" class="w-3 h-3 ml-2"></i></a>
+                </div>
+            </div>
+
+            <div class="mt-20 reveal">
+                <div class="bg-navy rounded-[3rem] p-8 md:p-16 text-white">
+                    <div class="text-center mb-12">
+                        <h3 class="text-gold text-3xl font-serif font-bold mb-4">Our Academic Approach</h3>
+                        <p class="text-gray-200">A multi-dimensional approach to ensuring every student succeeds.</p>
+                    </div>
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                        <div class="text-center p-4 hover:bg-white/5 rounded-2xl transition-colors">
+                            <div class="w-12 h-12 bg-gold text-navy rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
+                            <p class="text-sm font-medium">Academic Learning</p>
+                        </div>
+                        <div class="text-center p-4 hover:bg-white/5 rounded-2xl transition-colors">
+                            <div class="w-12 h-12 bg-gold text-navy rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
+                            <p class="text-sm font-medium">Activity-Based Learning</p>
+                        </div>
+                        <div class="text-center p-4 hover:bg-white/5 rounded-2xl transition-colors">
+                            <div class="w-12 h-12 bg-gold text-navy rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
+                            <p class="text-sm font-medium">Communication Skills</p>
+                        </div>
+                        <div class="text-center p-4 hover:bg-white/5 rounded-2xl transition-colors">
+                            <div class="w-12 h-12 bg-gold text-navy rounded-full flex items-center justify-center mx-auto mb-4 font-bold">4</div>
+                            <p class="text-sm font-medium">Creative Thinking</p>
+                        </div>
+                        <div class="text-center p-4 hover:bg-white/5 rounded-2xl transition-colors">
+                            <div class="w-12 h-12 bg-gold text-navy rounded-full flex items-center justify-center mx-auto mb-4 font-bold">5</div>
+                            <p class="text-sm font-medium">Problem Solving</p>
+                        </div>
+                        <div class="text-center p-4 hover:bg-white/5 rounded-2xl transition-colors">
+                            <div class="w-12 h-12 bg-gold text-navy rounded-full flex items-center justify-center mx-auto mb-4 font-bold">6</div>
+                            <p class="text-sm font-medium">Character Dev.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="py-20 diamond-pattern">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-navy font-serif text-4xl font-bold mb-4">World-Class Facilities</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">We provide an infrastructure that encourages curiosity and supports the growth of every student.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="reveal group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-56 overflow-hidden">
+                        <img src="images/1.jpg" alt="Diamond Public School building" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-navy font-serif text-xl font-bold mb-3">Modern Classrooms</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-4">[Editable: Describe the classroom environment, lighting, and seating]</p>
+                        <span class="text-gold text-xs font-bold uppercase tracking-widest">Available</span>
+                    </div>
+                </div>
+                <div class="reveal group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300" style="transition-delay: 100ms;">
+                    <div class="h-56 overflow-hidden">
+                        <img src="images/4.jpg" alt="Students gathered for a school programme" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-navy font-serif text-xl font-bold mb-3">School Library</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-4">[Editable: Describe the collection of books and reading environment]</p>
+                        <span class="text-gold text-xs font-bold uppercase tracking-widest">Available</span>
+                    </div>
+                </div>
+                <div class="reveal group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300" style="transition-delay: 200ms;">
+                    <div class="h-56 overflow-hidden">
+                        <img src="images/5.jpg" alt="Students participating in a school event" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-navy font-serif text-xl font-bold mb-3">Science Laboratories</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-4">[Editable: Describe the available equipment and safety standards]</p>
+                        <span class="text-gold text-xs font-bold uppercase tracking-widest">Available</span>
+                    </div>
+                </div>
+                <div class="reveal group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <div class="h-56 overflow-hidden">
+                        <img src="images/6.jpg" alt="Students presenting a school formation" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-navy font-serif text-xl font-bold mb-3">Computer Laboratory</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-4">[Editable: Describe the computers and software available to students]</p>
+                        <span class="text-gold text-xs font-bold uppercase tracking-widest">Available</span>
+                    </div>
+                </div>
+                <div class="reveal group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300" style="transition-delay: 100ms;">
+                    <div class="h-56 overflow-hidden">
+                        <img src="images/7.jpg" alt="Students at a school gathering" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-navy font-serif text-xl font-bold mb-3">Sports Playground</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-4">[Editable: Describe the sports facilities and open grounds]</p>
+                        <span class="text-gold text-xs font-bold uppercase tracking-widest">Available</span>
+                    </div>
+                </div>
+                <div class="reveal group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300" style="transition-delay: 200ms;">
+                    <div class="h-56 overflow-hidden">
+                        <img src="images/8.jpg" alt="Diamond Public School campus" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-navy font-serif text-xl font-bold mb-3">Campus Security</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed mb-4">[Editable: Describe the security measures in place for student safety]</p>
+                        <span class="text-gold text-xs font-bold uppercase tracking-widest">Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20 bg-light-blue">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-navy font-serif text-4xl font-bold mb-4">Why Choose Diamond Public School?</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">We combine tradition with modernity to create an environment where children thrive.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 transition-transform duration-300 border-b-4 border-navy">
+                    <div class="w-12 h-12 bg-navy/10 text-navy rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="user" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Student-Centered Learning</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Recognizing that every child is unique, we adapt our teaching styles to fit individual needs.</p>
+                </div>
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 transition-transform duration-300 border-b-4 border-navy" style="transition-delay: 100ms;">
+                    <div class="w-12 h-12 bg-navy/10 text-navy rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="component" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Holistic Development</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Focusing on mental, physical, and emotional growth alongside academic achievement.</p>
+                </div>
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 transition-transform duration-300 border-b-4 border-navy" style="transition-delay: 200ms;">
+                    <div class="w-12 h-12 bg-navy/10 text-navy rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="smile" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Supportive Environment</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">A warm and encouraging atmosphere where students are not afraid to ask and explore.</p>
+                </div>
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 transition-transform duration-300 border-b-4 border-navy">
+                    <div class="w-12 h-12 bg-navy/10 text-navy rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="shield" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Focus on Discipline</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Teaching the value of discipline and integrity as the cornerstone of a successful life.</p>
+                </div>
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 transition-transform duration-300 border-b-4 border-navy" style="transition-delay: 100ms;">
+                    <div class="w-12 h-12 bg-navy/10 text-navy rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="globe" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Community Focused</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Building strong bonds between the school, parents, and the local Koth Kalan community.</p>
+                </div>
+                <div class="reveal bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 transition-transform duration-300 border-b-4 border-navy" style="transition-delay: 200ms;">
+                    <div class="w-12 h-12 bg-navy/10 text-navy rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="heart" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3">Individual Attention</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Maintaining a healthy teacher-student ratio to ensure no child is left behind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions" class="py-20 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full diamond-pattern opacity-50"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="bg-navy rounded-[3rem] overflow-hidden shadow-2xl flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 p-8 md:p-16 text-white">
+                    <h2 class="text-4xl md:text-5xl font-serif font-bold mb-6 leading-tight">Admissions Open</h2>
+                    <p class="text-xl text-gray-300 mb-10 leading-relaxed">Give your child a strong foundation for tomorrow. Join the Diamond Public School family today.</p>
+
+                    <div class="space-y-8 mb-12">
+                        <div class="flex items-start space-x-4 group">
+                            <div class="w-10 h-10 bg-gold text-navy rounded-full flex items-center justify-center shrink-0 transition-transform group-hover:scale-110">
+                                <i data-lucide="file-text" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Submit Enquiry</h4>
+                                <p class="text-sm text-gray-400">[Fill our online form or visit the school]</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4 group">
+                            <div class="w-10 h-10 bg-gold text-navy rounded-full flex items-center justify-center shrink-0 transition-transform group-hover:scale-110">
+                                <i data-lucide="phone-call" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Speak With School</h4>
+                                <p class="text-sm text-gray-400">[Consultation with our academic coordinators]</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4 group">
+                            <div class="w-10 h-10 bg-gold text-navy rounded-full flex items-center justify-center shrink-0 transition-transform group-hover:scale-110">
+                                <i data-lucide="map" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Visit / Interaction</h4>
+                                <p class="text-sm text-gray-400">[Campus tour and student interaction session]</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4 group">
+                            <div class="w-10 h-10 bg-gold text-navy rounded-full flex items-center justify-center shrink-0 transition-transform group-hover:scale-110">
+                                <i data-lucide="user-plus" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Admission Process</h4>
+                                <p class="text-sm text-gray-400">[Documentation and formal enrollment]</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-4">
+                        <a href="tel:9034622797" class="bg-white text-navy px-6 py-3 rounded-full font-bold flex items-center hover:bg-gray-100 transition-all">
+                            <i data-lucide="phone" class="w-4 h-4 mr-2"></i> Call School
+                        </a>
+                        <a href="https://wa.me/919034622797?text=Hello, I would like to know more about admission at Diamond Public School, Koth Kalan." target="_blank" class="bg-green-500 text-white px-6 py-3 rounded-full font-bold flex items-center hover:bg-green-600 transition-all">
+                            <i data-lucide="message-circle" class="w-4 h-4 mr-2"></i> WhatsApp Enquiry
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 bg-white p-8 md:p-16">
+                    <h3 class="text-navy font-serif text-3xl font-bold mb-8 text-center">Admission Enquiry Form</h3>
+                    <form id="admission-form" class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-500 mb-2">Parent Name</label>
+                                <input type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy focus:border-transparent outline-none transition-all" placeholder="Full Name">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-500 mb-2">Student Name</label>
+                                <input type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy focus:border-transparent outline-none transition-all" placeholder="Child's Full Name">
+                            </div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-500 mb-2">Student Date of Birth</label>
+                                <input type="date" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy focus:border-transparent outline-none transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-500 mb-2">Class Seeking Admission</label>
+                                <select required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy focus:border-transparent outline-none transition-all bg-white">
+                                    <option value="">Select Class</option>
+                                    <option value="nursery">Nursery</option>
+                                    <option value="lkg">LKG</option>
+                                    <option value="ukg">UKG</option>
+                                    <option value="1-5">Class I - V</option>
+                                    <option value="6-8">Class VI - VIII</option>
+                                    <option value="9-10">Class IX - X</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-500 mb-2">Mobile Number</label>
+                                <input type="tel" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy focus:border-transparent outline-none transition-all" placeholder="+91 00000-00000">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-500 mb-2">Email Address</label>
+                                <input type="email" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy focus:border-transparent outline-none transition-all" placeholder="email@example.com">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-500 mb-2">Message</label>
+                            <textarea rows="4" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy focus:border-transparent outline-none transition-all" placeholder="Any specific questions or requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-navy text-white py-4 rounded-xl font-bold uppercase tracking-wider hover:bg-blue-900 transition-all shadow-xl active:scale-95">Submit Admission Enquiry</button>
+                    </form>
+                    <div id="form-success" class="hidden text-center py-12 animate-fade-in">
+                        <div class="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i data-lucide="check-circle" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-navy font-serif text-2xl font-bold mb-2">Enquiry Sent Successfully!</h3>
+                        <p class="text-gray-500">Our admission team will contact you shortly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Notices -->
+    <section id="news" class="py-20 bg-light-blue">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 reveal">
+                <div>
+                    <h2 class="text-navy font-serif text-4xl font-bold mb-4">News & Notices</h2>
+                    <p class="text-gray-500 max-w-2xl">Stay updated with the latest announcements, event dates, and official notifications from the school.</p>
+                </div>
+                <a href="#" class="hidden md:block text-navy font-bold text-sm uppercase tracking-widest border-b-2 border-gold hover:text-gold transition-colors pb-1">View All Notices</a>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="reveal bg-white p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-all group">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="bg-navy text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Admission</span>
+                        <span class="text-gray-400 text-xs font-medium">22 Sep 2026</span>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3 group-hover:text-gold transition-colors">Session 2027-28 Admissions Open</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">We are pleased to announce that admissions for the upcoming academic session are now open. Visit the office for forms.</p>
+                    <a href="#" class="text-navy font-bold text-xs uppercase tracking-widest flex items-center hover:text-gold transition-colors">Read More <i data-lucide="arrow-right" class="w-3 h-3 ml-2"></i></a>
+                </div>
+                <div class="reveal bg-white p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-all group" style="transition-delay: 100ms;">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="bg-red-500 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Holiday</span>
+                        <span class="text-gray-400 text-xs font-medium">15 Sep 2026</span>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3 group-hover:text-gold transition-colors">Upcoming Autumn Break</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">The school will remain closed for the autumn break from Oct 2nd to Oct 5th. Classes will resume on Oct 6th.</p>
+                    <a href="#" class="text-navy font-bold text-xs uppercase tracking-widest flex items-center hover:text-gold transition-colors">Read More <i data-lucide="arrow-right" class="w-3 h-3 ml-2"></i></a>
+                </div>
+                <div class="reveal bg-white p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-all group" style="transition-delay: 200ms;">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="bg-gold text-navy text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Event</span>
+                        <span class="text-gray-400 text-xs font-medium">10 Sep 2026</span>
+                    </div>
+                    <h3 class="text-navy font-serif text-xl font-bold mb-3 group-hover:text-gold transition-colors">Annual Sports Meet Date</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">Get ready for the Annual Sports Meet! Detailed schedules and house divisions will be shared soon.</p>
+                    <a href="#" class="text-navy font-bold text-xs uppercase tracking-widest flex items-center hover:text-gold transition-colors">Read More <i data-lucide="arrow-right" class="w-3 h-3 ml-2"></i></a>
+                </div>
+            </div>
+            <div class="mt-12 text-center lg:hidden">
+                <a href="#" class="inline-block bg-navy text-white px-8 py-3 rounded-full font-bold text-sm uppercase tracking-widest">View All Notices</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-navy font-serif text-4xl font-bold mb-4">Upcoming Events</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">Celebrating milestones and learning through experience.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="reveal group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all" style="transition-delay: 0ms;">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="images/9.jpg" alt="Students taking part in a school programme" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white p-3 rounded-2xl text-center shadow-lg">
+                            <p class="text-navy font-bold text-xl leading-none">15</p>
+                            <p class="text-gold text-[10px] font-bold uppercase">Oct</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-navy font-serif text-xl font-bold mb-2">Parents' Teachers Meeting</h3>
+                        <p class="text-gray-500 text-sm mb-4">A dedicated day for parents and teachers to discuss student progress.</p>
+                        <div class="flex items-center text-gray-400 text-xs font-medium">
+                            <i data-lucide="map-pin" class="w-3 h-3 mr-1 text-gold"></i> School Auditorium
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all" style="transition-delay: 100ms;">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="images/5.jpg" alt="Students presenting a school formation" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white p-3 rounded-2xl text-center shadow-lg">
+                            <p class="text-navy font-bold text-xl leading-none">02</p>
+                            <p class="text-gold text-[10px] font-bold uppercase">Nov</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-navy font-serif text-xl font-bold mb-2">Children's Day Celebration</h3>
+                        <p class="text-gray-500 text-sm mb-4">A day of fun, games, and performances dedicated to our wonderful students.</p>
+                        <div class="flex items-center text-gray-400 text-xs font-medium">
+                            <i data-lucide="map-pin" class="w-3 h-3 mr-1 text-gold"></i> School Grounds
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all" style="transition-delay: 200ms;">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="images/4.jpg" alt="Students gathered for a school programme" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white p-3 rounded-2xl text-center shadow-lg">
+                            <p class="text-navy font-bold text-xl leading-none">20</p>
+                            <p class="text-gold text-[10px] font-bold uppercase">Dec</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-navy font-serif text-xl font-bold mb-2">Annual Art Exhibition</h3>
+                        <p class="text-gray-500 text-sm mb-4">Showcasing the creative brilliance of our students through painting and craft.</p>
+                        <div class="flex items-center text-gray-400 text-xs font-medium">
+                            <i data-lucide="map-pin" class="w-3 h-3 mr-1 text-gold"></i> Art Gallery
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-light-blue">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-navy font-serif text-4xl font-bold mb-4">School Gallery</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">A glimpse into the vibrant life at Diamond Public School.</p>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 mb-12 reveal">
+                <button class="gallery-filter active bg-navy text-white px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest transition-all">All</button>
+                <button class="gallery-filter bg-white text-navy px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-navy/10 hover:bg-navy hover:text-white transition-all">Campus</button>
+                <button class="gallery-filter bg-white text-navy px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-navy/10 hover:bg-navy hover:text-white transition-all">Classrooms</button>
+                <button class="gallery-filter bg-white text-navy px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-navy/10 hover:bg-navy hover:text-white transition-all">Students</button>
+                <button class="gallery-filter bg-white text-navy px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest border border-navy/10 hover:bg-navy hover:text-white transition-all">Sports</button>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 reveal">
+                <div class="gallery-item group relative rounded-3xl overflow-hidden h-64 cursor-pointer shadow-lg">
+                    <img src="images/3.jpg" alt="Diamond Public School building" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-navy/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" class="text-white w-8 h-8"></i>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-3xl overflow-hidden h-80 cursor-pointer shadow-lg">
+                    <img src="images/1.jpg" alt="Students taking part in a school programme" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-navy/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" class="text-white w-8 h-8"></i>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-3xl overflow-hidden h-64 cursor-pointer shadow-lg">
+                                        <img src="images/3.jpg" alt="Diamond Public School building" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-navy/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" class="text-white w-8 h-8"></i>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-3xl overflow-hidden h-80 cursor-pointer shadow-lg">
+                                        <img src="images/4.jpg" alt="Students gathered for a school programme" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-navy/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" class="text-white w-8 h-8"></i>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-3xl overflow-hidden h-64 cursor-pointer shadow-lg">
+                                        <img src="images/5.jpg" alt="Students participating in a school event" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-navy/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" class="text-white w-8 h-8"></i>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-3xl overflow-hidden h-80 cursor-pointer shadow-lg">
+                                        <img src="images/6.jpg" alt="Students presenting a school formation" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-navy/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" class="text-white w-8 h-8"></i>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-3xl overflow-hidden h-64 cursor-pointer shadow-lg">
+                    <img src="images/7.jpg" alt="Students participating in a school event" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-navy/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" class="text-white w-8 h-8"></i>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-3xl overflow-hidden h-80 cursor-pointer shadow-lg">
+                    <img src="images/8.jpg" alt="Students gathered for a school programme" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-navy/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <i data-lucide="maximize-2" class="text-white w-8 h-8"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Life -->
+    <section class="py-20 overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-navy font-serif text-4xl font-bold mb-4">The Student Journey</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">Education at Diamond Public School extends far beyond the textbook.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="reveal group relative rounded-3xl overflow-hidden h-80 shadow-lg" style="transition-delay: 0ms;">
+                    <img src="images/9.jpg" alt="Students presenting a school formation" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy to-transparent opacity-80"></div>
+                    <div class="absolute bottom-0 p-6 text-white">
+                        <h3 class="text-xl font-bold mb-2">Academic Learning</h3>
+                        <p class="text-sm text-gray-300">Rigorous curriculum meeting modern standards.</p>
+                    </div>
+                </div>
+                <div class="reveal group relative rounded-3xl overflow-hidden h-80 shadow-lg" style="transition-delay: 100ms;">
+                    <img src="images/3.jpg" alt="Diamond Public School building" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy to-transparent opacity-80"></div>
+                    <div class="absolute bottom-0 p-6 text-white">
+                        <h3 class="text-xl font-bold mb-2">Creativity & Arts</h3>
+                        <p class="text-sm text-gray-300">Exploring expression through music, art, and dance.</p>
+                    </div>
+                </div>
+                <div class="reveal group relative rounded-3xl overflow-hidden h-80 shadow-lg" style="transition-delay: 200ms;">
+                    <img src="images/1.jpg" alt="Students taking part in a school programme" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy to-transparent opacity-80"></div>
+                    <div class="absolute bottom-0 p-6 text-white">
+                        <h3 class="text-xl font-bold mb-2">Sports & Health</h3>
+                        <p class="text-sm text-gray-300">Building physical strength and a spirit of competition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parent Community Section -->
+    <section class="py-20 bg-soft-gold overflow-hidden relative">
+        <div class="absolute -top-20 -right-20 w-80 h-80 bg-gold/10 rounded-full blur-3xl"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="bg-white rounded-[3rem] p-8 md:p-16 shadow-xl flex flex-col lg:flex-row items-stretch gap-12">
+                <div class="lg:w-1/2 reveal">
+                    <img src="images/3.jpg" alt="Diamond Public School building" class="w-full h-full object-cover rounded-3xl shadow-2xl">
+                </div>
+                <div class="lg:w-1/2 reveal">
+                    <h2 class="text-navy font-serif text-4xl font-bold mb-6 leading-tight">Growing Together</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                        We believe that education is a partnership between the school, the home, and the community. By working together, we create an ecosystem of support that allows every child to reach their full potential.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="flex items-center space-x-3">
+                            <i data-lucide="users" class="text-gold w-6 h-6"></i>
+                            <span class="text-navy font-bold">Dedicated Parents</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i data-lucide="graduation-cap" class="text-gold w-6 h-6"></i>
+                            <span class="text-navy font-bold">Inspiring Teachers</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i data-lucide="book-open" class="text-gold w-6 h-6"></i>
+                            <span class="text-navy font-bold">Eager Students</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i data-lucide="heart" class="text-gold w-6 h-6"></i>
+                            <span class="text-navy font-bold">Strong Community</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-navy font-serif text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">Quick answers to the most common queries from parents and visitors.</p>
+            </div>
+            <div class="max-w-3xl mx-auto space-y-4 reveal">
+                <div class="faq-item bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm">
+                    <button class="faq-trigger w-full p-6 text-left flex justify-between items-center text-navy font-bold text-lg hover:bg-soft-gold transition-colors">
+                        <span>What classes does Diamond Public School offer?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 text-gray-600 border-t border-gray-100 bg-gray-50">
+                        <p>Diamond Public School is documented as a Middle School. Please contact the school office for the most current list of available classes.</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm">
+                    <button class="faq-trigger w-full p-6 text-left flex justify-between items-center text-navy font-bold text-lg hover:bg-soft-gold transition-colors">
+                        <span>How can I enquire about admission?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 text-gray-600 border-t border-gray-100 bg-gray-50">
+                        <p>You can enquire about admission by filling out the online form on our website, calling us at 9034622797, or visiting the school campus during office hours.</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm">
+                    <button class="faq-trigger w-full p-6 text-left flex justify-between items-center text-navy font-bold text-lg hover:bg-soft-gold transition-colors">
+                        <span>Where is Diamond Public School located?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 text-gray-600 border-t border-gray-100 bg-gray-50">
+                        <p>The school is located at Koth Kalan, Hisar, Haryana – 125039.</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm">
+                    <button class="faq-trigger w-full p-6 text-left flex justify-between items-center text-navy font-bold text-lg hover:bg-soft-gold transition-colors">
+                        <span>How can I reach the school?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 text-gray-600 border-t border-gray-100 bg-gray-50">
+                        <p>You can find the school in Koth Kalan, Hisar. We recommend using the Google Maps link provided in the contact section of our website for precise directions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-light-blue relative overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <div class="reveal">
+                    <h2 class="text-navy font-serif text-4xl font-bold mb-8">Contact Us</h2>
+                    <div class="space-y-8">
+                        <div class="flex items-start space-x-6">
+                            <div class="w-14 h-14 bg-white text-navy rounded-2xl shadow-lg flex items-center justify-center shrink-0">
+                                <i data-lucide="map-pin" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-navy font-bold text-xl mb-2">Our Address</h4>
+                                    <p class="text-gray-500 leading-relaxed">Diamond Public School<br>Koth Kalan, Hisar, Haryana – 125039</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6">
+                            <div class="w-14 h-14 bg-white text-navy rounded-2xl shadow-lg flex items-center justify-center shrink-0">
+                                <i data-lucide="phone" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-navy font-bold text-xl mb-2">Phone Number</h4>
+                                <p class="text-gray-500 leading-relaxed"><a href="tel:9034622797" class="text-navy font-bold hover:text-gold transition-colors">9034622797</a></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6">
+                            <div class="w-14 h-14 bg-white text-navy rounded-2xl shadow-lg flex items-center justify-center shrink-0">
+                                <i data-lucide="message-circle" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-navy font-bold text-xl mb-2">Quick Enquiry</h4>
+                                <a href="https://wa.me/919034622797" target="_blank" class="bg-green-500 text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-green-600 transition-all inline-flex items-center">
+                                    Chat on WhatsApp <i data-lucide="external-link" class="w-3 h-3 ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-12 p-8 bg-white rounded-3xl shadow-xl border-l-8 border-gold reveal">
+                        <h3 class="text-navy font-serif text-2xl font-bold mb-4">Get in Touch</h3>
+                        <p class="text-gray-500 mb-6">Have a question? We're here to help. Send us a message and we'll get back to you within 24 hours.</p>
+                        <form class="space-y-4">
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy outline-none">
+                                <input type="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy outline-none">
+                            </div>
+                            <textarea rows="4" placeholder="How can we help you?" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-navy outline-none"></textarea>
+                            <button class="bg-navy text-white px-8 py-3 rounded-xl font-bold uppercase tracking-wider hover:bg-blue-900 transition-all w-full md:w-auto">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <div class="h-full min-h-[400px] rounded-[3rem] overflow-hidden shadow-2xl relative">
+                        <iframe
+                            class="w-full h-full grayscale-[10%] contrast-[1.15]"
+                            src="https://www.google.com/maps?q=Diamond+Public+School+Koth+Kalan+Hisar&output=embed"
+                            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <div class="absolute bottom-6 left-6">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Diamond+Public+School+Koth+Kalan+Hisar" target="_blank" rel="noreferrer" class="bg-white text-navy px-6 py-3 rounded-full font-bold shadow-xl flex items-center hover:bg-gray-100 transition-all">
+                                <i data-lucide="navigation" class="w-4 h-4 mr-2 text-gold"></i> Get Directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy text-white pt-20 pb-10 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/2 h-full diamond-pattern opacity-10"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+                <div class="space-y-6">
+                    <div class="flex items-center space-x-3">
+                        <i data-lucide="diamond" class="text-gold w-8 h-8"></i>
+                        <span class="text-gold font-serif text-2xl font-bold uppercase tracking-tight">Diamond Public School</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Dedicated to providing quality education and fostering holistic growth in the heart of Koth Kalan, Hisar.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold hover:text-navy transition-all"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold hover:text-navy transition-all"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold hover:text-navy transition-all"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-gold font-bold uppercase tracking-widest text-sm mb-6">Quick Links</h4>
+                    <ul class="space-y-4 text-gray-400 font-medium">
+                        <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors">About School</a></li>
+                        <li><a href="#academics" class="hover:text-white transition-colors">Academics</a></li>
+                        <li><a href="#admissions" class="hover:text-white transition-colors">Admissions</a></li>
+                        <li><a href="#gallery" class="hover:text-white transition-colors">Gallery</a></li>
+                        <li><a href="#news" class="hover:text-white transition-colors">News & Notices</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-gold font-bold uppercase tracking-widest text-sm mb-6">Admissions</h4>
+                    <ul class="space-y-4 text-gray-400 font-medium">
+                        <li><a href="#admissions" class="hover:text-white transition-colors">Admission Enquiry</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors">Contact School</a></li>
+                        <li><a href="#faq" class="hover:text-white transition-colors">FAQs</a></li>
+                        <li><a href="tel:9034622797" class="hover:text-white transition-colors">Call Office</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-gold font-bold uppercase tracking-widest text-sm mb-6">Contact</h4>
+                    <ul class="space-y-4 text-gray-400 font-medium">
+                        <li class="flex items-start space-x-3">
+                            <i data-lucide="phone" class="w-5 h-5 text-gold shrink-0"></i>
+                            <span>9034622797</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-gold shrink-0"></i>
+                            <span>Koth Kalan, Haryana 126102</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i data-lucide="mail" class="w-5 h-5 text-gold shrink-0"></i>
+                            <span>info@diamondpublicschool.edu</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs font-medium">
+                <p>© 2026 Diamond Public School. All Rights Reserved.</p>
+                <p class="mt-4 md:mt-0">Designed & Developed by <span class="text-white font-bold">[Editable Agency Name]</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919034622797?text=Hello, I would like to know more about admission at Diamond Public School, Koth Kalan." target="_blank" class="fixed bottom-24 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 active:scale-95 animate-pulse">
+        <i data-lucide="message-circle" class="w-7 h-7"></i>
+    </a>
+
+    <!-- Mobile Bottom CTA Bar -->
+    <div class="mobile-bottom-bar fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 px-4 py-3 flex justify-around items-center shadow-2xl">
+        <a href="tel:9034622797" class="flex flex-col items-center text-navy font-bold text-[10px] uppercase tracking-tighter">
+            <div class="bg-navy text-white p-2 rounded-full mb-1"><i data-lucide="phone" class="w-4 h-4"></i></div>
+            <span>Call</span>
+        </a>
+        <a href="https://wa.me/919034622797" target="_blank" class="flex flex-col items-center text-green-600 font-bold text-[10px] uppercase tracking-tighter">
+            <div class="bg-green-500 text-white p-2 rounded-full mb-1"><i data-lucide="message-circle" class="w-4 h-4"></i></div>
+            <span>WhatsApp</span>
+        </a>
+        <a href="#admissions" class="flex flex-col items-center text-gold font-bold text-[10px] uppercase tracking-tighter">
+            <div class="bg-gold text-navy p-2 rounded-full mb-1"><i data-lucide="user-plus" class="w-4 h-4"></i></div>
+            <span>Admission</span>
+        </a>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 z-[100] bg-black/95 hidden flex items-center justify-center p-4">
+        <button id="close-lightbox" class="absolute top-6 right-6 text-white p-2 hover:bg-white/10 rounded-full transition-colors">
+            <i data-lucide="x" class="w-8 h-8"></i>
+        </button>
+        <img id="lightbox-img" src="" class="max-w-full max-h-[90vh] rounded-lg shadow-2xl">
+        <button id="prev-lightbox" class="absolute left-6 text-white p-4 hover:bg-white/10 rounded-full"><i data-lucide="chevron-left" class="w-8 h-8"></i></button>
+        <button id="next-lightbox" class="absolute right-6 text-white p-4 hover:bg-white/10 rounded-full"><i data-lucide="chevron-right" class="w-8 h-8"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
